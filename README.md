@@ -1,6 +1,6 @@
-# barcode_generator v3.4
+# barcode_generator for Nanopore PCR
 A program that generates barcodes for sequencing adapters. It runs in Python 3.x. Tested with 3.7.
-This version is for Nanopore PCR adapters. If you select, for example, 48 adapters it will print 
+This version, 3.4, is for Nanopore PCR adapters. If you select, for example, 48 adapters it will print 
 24 forward and 24 reverse adapters. 
 
 ## Adapter sequences
@@ -9,7 +9,7 @@ This version is for Nanopore PCR adapters. If you select, for example, 48 adapte
 
 ## Arguments
 * table_excluded_barcodes = one barcode per line table, for example, if the first barcode is 'aggt', the line
-should be "['a','g','g','t']". default is :none. Enter "none" if the second arg is given. 
+should be "['a','g','g','t']". default is none. Enter "none" if the second arg is given. 
 * length = nucleotide number in barcode 
 * number = how many barcodes def:48
 * distance = Hamming distance def:2
