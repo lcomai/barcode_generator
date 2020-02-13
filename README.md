@@ -5,6 +5,7 @@ This version, 3.4, is for Nanopore PCR adapters. If you select, for example, 48 
 
 ## Adapter sequences
 5'-[barcode]-TTTCTGTTGGTGCTGATATTGC
+
 5'-[barcode]-ACTTGCCTGTCGCTCTATCTTC
 
 ## Arguments
