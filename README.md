@@ -1,7 +1,7 @@
 # barcode_generator for Nanopore PCR
 A program that generates barcodes for sequencing adapters. It runs in Python 3.x. Tested with 3.7.
-This version, 3.4, is for Nanopore PCR adapters. If you select, for example, 48 adapters it will print 
-24 forward and 24 reverse adapters. 
+This version, 3.4, is for Nanopore PCR adapters. If you select, for example, 48 adapters it will 
+print to a file a list of 24 forward and 24 reverse adapters. 
 
 ## Adapter sequences
 5'-[barcode]-TTTCTGTTGGTGCTGATATTGC
